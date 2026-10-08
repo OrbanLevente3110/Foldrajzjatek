@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Földrajz játék</title>
+    <script src="lib/topojson-client.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#087da8">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+    <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+</head>
+<body>
+    <main class="app-shell">
+        <header class="site-header">
+            <p class="eyebrow">Földrajzi kvíz</p>
+            <h1>Járd be a világot!</h1>
+            <p>Válaszd ki a témákat, majd ismerd fel az országokat vagy közigazgatási egységeket.</p>
+        </header>
+        <section id="game_setup_div" class="card setup-card" aria-labelledby="setup-title">
+            <h2 id="setup-title">Játék beállítása</h2>
+            <fieldset class="game-mode-fieldset">
+                <legend>Kérdések témája</legend>
+                <div class="mode-grid">
+                    <label class="choice"><input type="radio" name="game_mode" value="countries" checked><span>Országok</span></label>
+                    <label class="choice"><input type="radio" name="game_mode" value="subdivisions"><span>Közigazgatási egységek</span></label>
+                </div>
+            </fieldset>
+            <div class="setup-grid">
+                <fieldset><legend>Kontinensek</legend>
+                    <label class="choice choice--all"><input type="checkbox" id="World" name="continent"><span>Teljes világ</span></label>
+                    <div class="choice-grid">
+                        <label class="choice"><input type="checkbox" id="Europe" name="continent"><span>Európa</span></label>
+                        <label class="choice"><input type="checkbox" id="Asia" name="continent"><span>Ázsia</span></label>
+                        <label class="choice"><input type="checkbox" id="Africa" name="continent"><span>Afrika</span></label>
+                        <label class="choice"><input type="checkbox" id="South America" name="continent"><span>Dél-Amerika</span></label>
+                        <label class="choice"><input type="checkbox" id="North America" name="continent"><span>Észak-Amerika</span></label>
+                        <label class="choice"><input type="checkbox" id="Oceania" name="continent"><span>Ausztrália és Óceánia</span></label>
+                        <label class="choice"><input type="checkbox" id="Antarctica" name="continent"><span>Antarktika</span></label>
+                    </div>
+                </fieldset>
+                <fieldset><legend>Kérdéstípusok</legend>
+                    <div class="choice-grid">
+                        <label class="choice"><input type="checkbox" id="flag" name="question_type"><span>Zászló</span></label>
+                        <label class="choice"><input type="checkbox" id="coat_of_arms" name="question_type"><span>Címer</span></label>
+                        <label class="choice"><input type="checkbox" id="capital" name="question_type"><span>Főváros</span></label>
+                        <label class="choice"><input type="checkbox" id="map" name="question_type"><span>Térképi felismerés</span></label>
+                        <label class="choice"><input type="checkbox" id="outline" name="question_type"><span>Körvonal</span></label>
+                        <label class="choice"><input type="checkbox" id="population" name="question_type"><span>Népesség</span></label>
+                        <label class="choice country-only"><input type="checkbox" id="area" name="question_type"><span>Terület</span></label>
+                        <label class="choice country-only"><input type="checkbox" id="highest_point" name="question_type"><span>Legmagasabb pont</span></label>
+                        <label class="choice country-only"><input type="checkbox" id="highest_point_name" name="question_type"><span>Legmagasabb pont neve</span></label>
+                        <label class="choice subdivision-only hidden"><input type="checkbox" id="parent_country" name="question_type" disabled><span>Melyik országhoz tartozik?</span></label>
+                    </div>
+                </fieldset>
+                <fieldset id="classification_fieldset"><legend>Országok besorolása</legend>
+                    <div class="choice-grid">
+                        <label class="choice"><input type="checkbox" name="classification" id="un_member" checked><span>ENSZ-tagok</span></label>
+                        <label class="choice"><input type="checkbox" name="classification" id="sovereign"><span>Független országok</span></label>
+                        <label class="choice"><input type="checkbox" name="classification" id="dependency"><span>Függő területek</span></label>
+                    </div>
+                </fieldset>
+                <fieldset id="subdivision_country_fieldset" class="subdivision-only hidden"><legend>Országok szűrése</legend>
+                    <label class="choice choice--all"><input type="checkbox" id="subdivision_country_all" checked disabled><span>Összes ország</span></label>
+                    <input id="subdivision_country_search" class="country-search" type="search" placeholder="Ország keresése…" aria-label="Ország keresése" disabled>
+                    <div id="subdivision_country_options" class="choice-grid country-filter-list"></div>
+                </fieldset>
+            </div>
+            <div class="start-row">
+                <label class="question-count" for="question_count">Kérdések száma
+                    <select id="question_count"><option value="5">5</option><option value="10" selected>10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option><option value="50">50</option><option value="75">75</option><option value="100">100</option></select>
+                </label>
+                <button id="game_setup_btn" class="primary-button" disabled>Játék indítása</button>
+            </div>
+            <p id="setup_error" class="setup-error hidden" role="alert"></p>
+        </section>
+        <section id="game_div" class="card game-card hidden" aria-live="polite">
+            <div class="game-hud"><p>Kérdés <strong id="question_progress">1 / 10</strong></p><p>Pontszám <strong id="points_counter">0</strong></p></div>
+            <p id="question" class="question-text"></p>
+            <div id="map_question" class="hidden"><svg id="map_svg" viewBox="0 0 960 480" role="img" aria-label="Földrajzi térkép"></svg></div>
+            <div id="answer_options" class="answer-grid"><button id="option_1"></button><button id="option_2"></button><button id="option_3"></button><button id="option_4"></button></div>
+            <div class="next-row"><button id="next_question" class="primary-button hidden">Következő</button></div>
+            <div id="result_panel" class="result-panel hidden"><p class="eyebrow">Eredmény</p><h2 id="result_text"></h2><button id="restart_button" class="primary-button">Új játék</button></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

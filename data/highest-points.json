@@ -1,0 +1,1609 @@
+[
+  {
+    "ccn3": "840",
+    "country_name": "Amerikai Egyesült Államok",
+    "highest_point_name": "Mount McKinley",
+    "highest_point_elevation_m": 6190.0
+  },
+  {
+    "ccn3": "056",
+    "country_name": "Belgium",
+    "highest_point_name": "Signal de Botrange",
+    "highest_point_elevation_m": 694.24
+  },
+  {
+    "ccn3": "348",
+    "country_name": "Magyarország",
+    "highest_point_name": "Kékes",
+    "highest_point_elevation_m": 1014.0
+  },
+  {
+    "ccn3": "724",
+    "country_name": "Spanyolország",
+    "highest_point_name": "Teide",
+    "highest_point_elevation_m": 3715.0
+  },
+  {
+    "ccn3": "752",
+    "country_name": "Svédország",
+    "highest_point_name": "Kebnekaise",
+    "highest_point_elevation_m": 2096.8
+  },
+  {
+    "ccn3": "208",
+    "country_name": "Dánia",
+    "highest_point_name": "Møllehøj",
+    "highest_point_elevation_m": 170.86
+  },
+  {
+    "ccn3": "442",
+    "country_name": "Luxemburg",
+    "highest_point_name": "Kneiff",
+    "highest_point_elevation_m": 560.0
+  },
+  {
+    "ccn3": "246",
+    "country_name": "Finnország",
+    "highest_point_name": "Haltitunturi",
+    "highest_point_elevation_m": 1361.4
+  },
+  {
+    "ccn3": "380",
+    "country_name": "Olaszország",
+    "highest_point_name": "Mont Blanc",
+    "highest_point_elevation_m": 4805.59
+  },
+  {
+    "ccn3": "756",
+    "country_name": "Svájc",
+    "highest_point_name": "Dufourspitze",
+    "highest_point_elevation_m": 4634.0
+  },
+  {
+    "ccn3": "616",
+    "country_name": "Lengyelország",
+    "highest_point_name": "Tengerszem-csúcs",
+    "highest_point_elevation_m": 2501.0
+  },
+  {
+    "ccn3": "440",
+    "country_name": "Litvánia",
+    "highest_point_name": "Aukštojas Hill",
+    "highest_point_elevation_m": 293.84
+  },
+  {
+    "ccn3": "792",
+    "country_name": "Törökország",
+    "highest_point_name": "Ararát-hegy",
+    "highest_point_elevation_m": 5137.0
+  },
+  {
+    "ccn3": "040",
+    "country_name": "Ausztria",
+    "highest_point_name": "Großglockner",
+    "highest_point_elevation_m": 3798.0
+  },
+  {
+    "ccn3": "300",
+    "country_name": "Görögország",
+    "highest_point_name": "Olümposz",
+    "highest_point_elevation_m": 2917.727
+  },
+  {
+    "ccn3": "620",
+    "country_name": "Portugália",
+    "highest_point_name": "Pico-hegy",
+    "highest_point_elevation_m": 2351.0
+  },
+  {
+    "ccn3": "818",
+    "country_name": "Egyiptom",
+    "highest_point_name": "Mount Catherine",
+    "highest_point_elevation_m": 2629.0
+  },
+  {
+    "ccn3": "818",
+    "country_name": "Egyiptom",
+    "highest_point_name": "Mount Catherine",
+    "highest_point_elevation_m": 2637.0
+  },
+  {
+    "ccn3": "858",
+    "country_name": "Uruguay",
+    "highest_point_name": "Cerro Catedral",
+    "highest_point_elevation_m": 513.7
+  },
+  {
+    "ccn3": "484",
+    "country_name": "Mexikó",
+    "highest_point_name": "Citlaltépetl",
+    "highest_point_elevation_m": 5636.0
+  },
+  {
+    "ccn3": "404",
+    "country_name": "Kenya",
+    "highest_point_name": "Kenya-hegy",
+    "highest_point_elevation_m": 5199.0
+  },
+  {
+    "ccn3": "231",
+    "country_name": "Etiópia",
+    "highest_point_name": "Ras Dashan",
+    "highest_point_elevation_m": 4533.0
+  },
+  {
+    "ccn3": "288",
+    "country_name": "Ghána",
+    "highest_point_name": "Mount Afadja",
+    "highest_point_elevation_m": 885.0
+  },
+  {
+    "ccn3": "288",
+    "country_name": "Ghána",
+    "highest_point_name": "Mount Afadja",
+    "highest_point_elevation_m": 2904.0
+  },
+  {
+    "ccn3": "250",
+    "country_name": "Franciaország",
+    "highest_point_name": "Mont Blanc",
+    "highest_point_elevation_m": 4805.59
+  },
+  {
+    "ccn3": "826",
+    "country_name": "Egyesült Királyság",
+    "highest_point_name": "Ben Nevis",
+    "highest_point_elevation_m": 1344.527
+  },
+  {
+    "ccn3": "156",
+    "country_name": "Kína",
+    "highest_point_name": "Csomolungma",
+    "highest_point_elevation_m": 8848.86
+  },
+  {
+    "ccn3": "076",
+    "country_name": "Brazília",
+    "highest_point_name": "Pico da Neblina",
+    "highest_point_elevation_m": 2994.0
+  },
+  {
+    "ccn3": "643",
+    "country_name": "Oroszország",
+    "highest_point_name": "Elbrusz",
+    "highest_point_elevation_m": 5642.0
+  },
+  {
+    "ccn3": "276",
+    "country_name": "Németország",
+    "highest_point_name": "Zugspitze",
+    "highest_point_elevation_m": 2962.06
+  },
+  {
+    "ccn3": "112",
+    "country_name": "Fehéroroszország",
+    "highest_point_name": "Dziaržynkaja hara",
+    "highest_point_elevation_m": 345.0
+  },
+  {
+    "ccn3": "233",
+    "country_name": "Észtország",
+    "highest_point_name": "Suur Munamägi",
+    "highest_point_elevation_m": 317.4
+  },
+  {
+    "ccn3": "352",
+    "country_name": "Izland",
+    "highest_point_name": "Hvannadalshnúkur",
+    "highest_point_elevation_m": 2110.0
+  },
+  {
+    "ccn3": "428",
+    "country_name": "Lettország",
+    "highest_point_name": "Gaizinkalns",
+    "highest_point_elevation_m": 311.94
+  },
+  {
+    "ccn3": "703",
+    "country_name": "Szlovákia",
+    "highest_point_name": "Gerlachfalvi-csúcs",
+    "highest_point_elevation_m": 2654.4
+  },
+  {
+    "ccn3": "703",
+    "country_name": "Szlovákia",
+    "highest_point_name": "Gerlachfalvi-csúcs",
+    "highest_point_elevation_m": 2655.0
+  },
+  {
+    "ccn3": "705",
+    "country_name": "Szlovénia",
+    "highest_point_name": "Triglav",
+    "highest_point_elevation_m": 2864.0
+  },
+  {
+    "ccn3": "804",
+    "country_name": "Ukrajna",
+    "highest_point_name": "Hoverla",
+    "highest_point_elevation_m": 2061.0
+  },
+  {
+    "ccn3": "203",
+    "country_name": "Csehország",
+    "highest_point_name": "Sněžka",
+    "highest_point_elevation_m": 1603.3
+  },
+  {
+    "ccn3": "642",
+    "country_name": "Románia",
+    "highest_point_name": "Moldoveanu-csúcs",
+    "highest_point_elevation_m": 2544.0
+  },
+  {
+    "ccn3": "100",
+    "country_name": "Bulgária",
+    "highest_point_name": "Muszala",
+    "highest_point_elevation_m": 2925.4
+  },
+  {
+    "ccn3": "498",
+    "country_name": "Moldova",
+    "highest_point_name": "Bălănești-domb",
+    "highest_point_elevation_m": 430.0
+  },
+  {
+    "ccn3": "008",
+    "country_name": "Albánia",
+    "highest_point_name": "Korab-hegy",
+    "highest_point_elevation_m": 2764.0
+  },
+  {
+    "ccn3": "304",
+    "country_name": "Grönland",
+    "highest_point_name": "Gunnbjørns Fjeld",
+    "highest_point_elevation_m": 3694.0
+  },
+  {
+    "ccn3": "807",
+    "country_name": "Észak-Macedónia",
+    "highest_point_name": "Korab-hegy",
+    "highest_point_elevation_m": 2764.0
+  },
+  {
+    "ccn3": "031",
+    "country_name": "Azerbajdzsán",
+    "highest_point_name": "Bazardüzü",
+    "highest_point_elevation_m": 2706.0
+  },
+  {
+    "ccn3": "031",
+    "country_name": "Azerbajdzsán",
+    "highest_point_name": "Bazardüzü",
+    "highest_point_elevation_m": 4466.0
+  },
+  {
+    "ccn3": "191",
+    "country_name": "Horvátország",
+    "highest_point_name": "Dinara",
+    "highest_point_elevation_m": 1831.0
+  },
+  {
+    "ccn3": "070",
+    "country_name": "Bosznia-Hercegovina",
+    "highest_point_name": "Maglić",
+    "highest_point_elevation_m": 2386.0
+  },
+  {
+    "ccn3": "268",
+    "country_name": "Grúzia",
+    "highest_point_name": "Skara",
+    "highest_point_elevation_m": 5193.2
+  },
+  {
+    "ccn3": "020",
+    "country_name": "Andorra",
+    "highest_point_name": "Coma Pedrosa",
+    "highest_point_elevation_m": 2942.0
+  },
+  {
+    "ccn3": "196",
+    "country_name": "Ciprus",
+    "highest_point_name": "Ólimbosz",
+    "highest_point_elevation_m": 1952.0
+  },
+  {
+    "ccn3": "492",
+    "country_name": "Monaco",
+    "highest_point_name": "Chemin des Révoires",
+    "highest_point_elevation_m": 162.0
+  },
+  {
+    "ccn3": "398",
+    "country_name": "Kazahsztán",
+    "highest_point_name": "Khan Tengri",
+    "highest_point_elevation_m": 7010.0
+  },
+  {
+    "ccn3": "470",
+    "country_name": "Málta",
+    "highest_point_name": "Ta'Dmejrek",
+    "highest_point_elevation_m": 253.0
+  },
+  {
+    "ccn3": "674",
+    "country_name": "San Marino",
+    "highest_point_name": "Monte Titano",
+    "highest_point_elevation_m": 739.0
+  },
+  {
+    "ccn3": "674",
+    "country_name": "San Marino",
+    "highest_point_name": "Monte Titano",
+    "highest_point_elevation_m": 756.0
+  },
+  {
+    "ccn3": "499",
+    "country_name": "Montenegró",
+    "highest_point_name": "Zla Kolata",
+    "highest_point_elevation_m": 2534.0
+  },
+  {
+    "ccn3": "336",
+    "country_name": "Vatikán",
+    "highest_point_name": "Vatican Hill",
+    "highest_point_elevation_m": 75.0
+  },
+  {
+    "ccn3": "084",
+    "country_name": "Belize",
+    "highest_point_name": "Doyle's Delight",
+    "highest_point_elevation_m": 1124.0
+  },
+  {
+    "ccn3": "192",
+    "country_name": "Kuba",
+    "highest_point_name": "Pico Turquino",
+    "highest_point_elevation_m": 1974.0
+  },
+  {
+    "ccn3": "052",
+    "country_name": "Barbados",
+    "highest_point_name": "Mount Hillaby",
+    "highest_point_elevation_m": 340.0
+  },
+  {
+    "ccn3": "360",
+    "country_name": "Indonézia",
+    "highest_point_name": "Puncak Jaya",
+    "highest_point_elevation_m": 4884.0
+  },
+  {
+    "ccn3": "200",
+    "country_name": "Csehszlovákia",
+    "highest_point_name": "Gerlachfalvi-csúcs",
+    "highest_point_elevation_m": 2654.4
+  },
+  {
+    "ccn3": "200",
+    "country_name": "Csehszlovákia",
+    "highest_point_name": "Gerlachfalvi-csúcs",
+    "highest_point_elevation_m": 2655.0
+  },
+  {
+    "ccn3": "570",
+    "country_name": "Niue",
+    "highest_point_name": "Niue Highest Point",
+    "highest_point_elevation_m": 68.0
+  },
+  {
+    "ccn3": "666",
+    "country_name": "Saint-Pierre és Miquelon",
+    "highest_point_name": "Morne de la Grande Montagne",
+    "highest_point_elevation_m": 240.0
+  },
+  {
+    "ccn3": "239",
+    "country_name": "Déli-Georgia és Déli-Sandwich-szigetek",
+    "highest_point_name": "Mount Paget",
+    "highest_point_elevation_m": 2934.0
+  },
+  {
+    "ccn3": "876",
+    "country_name": "Wallis és Futuna",
+    "highest_point_name": "Mont Puke",
+    "highest_point_elevation_m": 524.0
+  },
+  {
+    "ccn3": "488",
+    "country_name": "Midway-atoll",
+    "highest_point_name": "Sand Island",
+    "highest_point_elevation_m": 12.0
+  },
+  {
+    "ccn3": "663",
+    "country_name": "Saint-Martin",
+    "highest_point_name": "Pic Paradis",
+    "highest_point_elevation_m": 424.0
+  },
+  {
+    "ccn3": "260",
+    "country_name": "Francia déli és antarktiszi területek",
+    "highest_point_name": "Mont Ross",
+    "highest_point_elevation_m": 1850.0
+  },
+  {
+    "ccn3": "396",
+    "country_name": "Johnston-atoll",
+    "highest_point_name": "Sand Island",
+    "highest_point_elevation_m": 10.0
+  },
+  {
+    "ccn3": "334",
+    "country_name": "Heard-sziget és McDonald-szigetek",
+    "highest_point_name": "Mawson Peak",
+    "highest_point_elevation_m": 2745.0
+  },
+  {
+    "ccn3": "080",
+    "country_name": "Brit antarktiszi terület",
+    "highest_point_name": "Mount Hope",
+    "highest_point_elevation_m": 3239.0
+  },
+  {
+    "ccn3": "654",
+    "country_name": "Szent Ilona, Ascension és Tristan da Cunha",
+    "highest_point_name": "Queen Mary's Peak",
+    "highest_point_elevation_m": 2062.0
+  },
+  {
+    "ccn3": "275",
+    "country_name": "Palesztina",
+    "highest_point_name": "Mount Nabi Yunis",
+    "highest_point_elevation_m": 1026.0
+  },
+  {
+    "ccn3": "744",
+    "country_name": "Svalbard és Jan Mayen",
+    "highest_point_name": "Newtontoppen",
+    "highest_point_elevation_m": 1713.0
+  },
+  {
+    "ccn3": "010",
+    "country_name": "Antarctic Treaty area",
+    "highest_point_name": "Vinson Massif",
+    "highest_point_elevation_m": 4892.0
+  },
+  {
+    "ccn3": "710",
+    "country_name": "Dél-afrikai Köztársaság",
+    "highest_point_name": "Mafadi",
+    "highest_point_elevation_m": 3450.0
+  },
+  {
+    "ccn3": "012",
+    "country_name": "Algéria",
+    "highest_point_name": "Tahat",
+    "highest_point_elevation_m": 2908.0
+  },
+  {
+    "ccn3": "860",
+    "country_name": "Üzbegisztán",
+    "highest_point_name": "Khazret Sultan",
+    "highest_point_elevation_m": 4643.0
+  },
+  {
+    "ccn3": "152",
+    "country_name": "Chile",
+    "highest_point_name": "Ojos del Salado",
+    "highest_point_elevation_m": 6893.0
+  },
+  {
+    "ccn3": "702",
+    "country_name": "Szingapúr",
+    "highest_point_name": "Bukit Timah",
+    "highest_point_elevation_m": 163.63
+  },
+  {
+    "ccn3": "438",
+    "country_name": "Liechtenstein",
+    "highest_point_name": "Grauspitz",
+    "highest_point_elevation_m": 2599.0
+  },
+  {
+    "ccn3": "048",
+    "country_name": "Bahrein",
+    "highest_point_name": "Mountain of Smoke",
+    "highest_point_elevation_m": 134.0
+  },
+  {
+    "ccn3": "051",
+    "country_name": "Örményország",
+    "highest_point_name": "Aragac",
+    "highest_point_elevation_m": 4090.0
+  },
+  {
+    "ccn3": "688",
+    "country_name": "Szerbia",
+    "highest_point_name": "Velika Rudoka",
+    "highest_point_elevation_m": 2658.0
+  },
+  {
+    "ccn3": "036",
+    "country_name": "Ausztrália",
+    "highest_point_name": "Mawson Peak",
+    "highest_point_elevation_m": 2745.0
+  },
+  {
+    "ccn3": "032",
+    "country_name": "Argentína",
+    "highest_point_name": "Aconcagua",
+    "highest_point_elevation_m": 6962.0
+  },
+  {
+    "ccn3": "604",
+    "country_name": "Peru",
+    "highest_point_name": "Huascarán",
+    "highest_point_elevation_m": 6768.0
+  },
+  {
+    "ccn3": "408",
+    "country_name": "Észak-Korea",
+    "highest_point_name": "Pektu-hegy",
+    "highest_point_elevation_m": 2744.0
+  },
+  {
+    "ccn3": "116",
+    "country_name": "Kambodzsa",
+    "highest_point_name": "Phnom Aoral",
+    "highest_point_elevation_m": 1813.0
+  },
+  {
+    "ccn3": "626",
+    "country_name": "Kelet-Timor",
+    "highest_point_name": "Tatamailau",
+    "highest_point_elevation_m": 2963.0
+  },
+  {
+    "ccn3": "148",
+    "country_name": "Csád",
+    "highest_point_name": "Emi Koussi",
+    "highest_point_elevation_m": 3445.0
+  },
+  {
+    "ccn3": "554",
+    "country_name": "Új-Zéland",
+    "highest_point_name": "Mount Cook",
+    "highest_point_elevation_m": 3724.0
+  },
+  {
+    "ccn3": "356",
+    "country_name": "India",
+    "highest_point_name": "Kancsendzönga",
+    "highest_point_elevation_m": 8586.0
+  },
+  {
+    "ccn3": "798",
+    "country_name": "Tuvalu",
+    "highest_point_name": "Niulakita",
+    "highest_point_elevation_m": 4.6
+  },
+  {
+    "ccn3": "776",
+    "country_name": "Tonga",
+    "highest_point_name": "Kao",
+    "highest_point_elevation_m": 1030.0
+  },
+  {
+    "ccn3": "882",
+    "country_name": "Szamoa",
+    "highest_point_name": "Mauga Silisili",
+    "highest_point_elevation_m": 1858.0
+  },
+  {
+    "ccn3": "548",
+    "country_name": "Vanuatu",
+    "highest_point_name": "Mount Tabwemasana",
+    "highest_point_elevation_m": 1879.0
+  },
+  {
+    "ccn3": "090",
+    "country_name": "Salamon-szigetek",
+    "highest_point_name": "Mount Popomanaseu",
+    "highest_point_elevation_m": 2335.0
+  },
+  {
+    "ccn3": "598",
+    "country_name": "Pápua Új-Guinea",
+    "highest_point_name": "Mount Wilhelm",
+    "highest_point_elevation_m": 4509.0
+  },
+  {
+    "ccn3": "585",
+    "country_name": "Palau",
+    "highest_point_name": "Mount Ngerchelchuus",
+    "highest_point_elevation_m": 242.0
+  },
+  {
+    "ccn3": "520",
+    "country_name": "Nauru",
+    "highest_point_name": "Command Ridge",
+    "highest_point_elevation_m": 70.0
+  },
+  {
+    "ccn3": "583",
+    "country_name": "Mikronéziai Szövetségi Államok",
+    "highest_point_name": "Dolohmwar",
+    "highest_point_elevation_m": 791.0
+  },
+  {
+    "ccn3": "296",
+    "country_name": "Kiribati",
+    "highest_point_name": "Banaba Island",
+    "highest_point_elevation_m": 81.0
+  },
+  {
+    "ccn3": "496",
+    "country_name": "Mongólia",
+    "highest_point_name": "Hujtun-csúcs",
+    "highest_point_elevation_m": 4374.0
+  },
+  {
+    "ccn3": "584",
+    "country_name": "Marshall-szigetek",
+    "highest_point_name": "Likiep Atoll",
+    "highest_point_elevation_m": 10.0
+  },
+  {
+    "ccn3": "242",
+    "country_name": "Fidzsi-szigetek",
+    "highest_point_name": "Mount Tomanivi",
+    "highest_point_elevation_m": 1324.0
+  },
+  {
+    "ccn3": "862",
+    "country_name": "Venezuela",
+    "highest_point_name": "Pico Bolívar",
+    "highest_point_elevation_m": 4978.0
+  },
+  {
+    "ccn3": "740",
+    "country_name": "Suriname",
+    "highest_point_name": "Julianatop",
+    "highest_point_elevation_m": 1280.0
+  },
+  {
+    "ccn3": "328",
+    "country_name": "Guyana",
+    "highest_point_name": "Roraima-hegy",
+    "highest_point_elevation_m": 2810.0
+  },
+  {
+    "ccn3": "600",
+    "country_name": "Paraguay",
+    "highest_point_name": "Cerro Tres Kandú",
+    "highest_point_elevation_m": 842.0
+  },
+  {
+    "ccn3": "170",
+    "country_name": "Kolumbia",
+    "highest_point_name": "Pico Simón Bolívar",
+    "highest_point_elevation_m": 5775.0
+  },
+  {
+    "ccn3": "170",
+    "country_name": "Kolumbia",
+    "highest_point_name": "Pico Cristóbal Colón",
+    "highest_point_elevation_m": 5775.0
+  },
+  {
+    "ccn3": "218",
+    "country_name": "Ecuador",
+    "highest_point_name": "Chimborazo",
+    "highest_point_elevation_m": 6263.47
+  },
+  {
+    "ccn3": "068",
+    "country_name": "Bolívia",
+    "highest_point_name": "Nevado Sajama",
+    "highest_point_elevation_m": 6542.0
+  },
+  {
+    "ccn3": "780",
+    "country_name": "Trinidad és Tobago",
+    "highest_point_name": "El Cerro del Aripo",
+    "highest_point_elevation_m": 940.0
+  },
+  {
+    "ccn3": "670",
+    "country_name": "Saint Vincent és a Grenadine-szigetek",
+    "highest_point_name": "La Soufrière",
+    "highest_point_elevation_m": 1220.0
+  },
+  {
+    "ccn3": "659",
+    "country_name": "Saint Kitts és Nevis",
+    "highest_point_name": "Mount Liamuiga",
+    "highest_point_elevation_m": 1156.0
+  },
+  {
+    "ccn3": "662",
+    "country_name": "Saint Lucia",
+    "highest_point_name": "Mount Gimie",
+    "highest_point_elevation_m": 952.4
+  },
+  {
+    "ccn3": "388",
+    "country_name": "Jamaica",
+    "highest_point_name": "Blue Mountain Peak",
+    "highest_point_elevation_m": 2256.0
+  },
+  {
+    "ccn3": "308",
+    "country_name": "Grenada",
+    "highest_point_name": "Mount Saint Catherine",
+    "highest_point_elevation_m": 840.0
+  },
+  {
+    "ccn3": "320",
+    "country_name": "Guatemala",
+    "highest_point_name": "Tajumulco",
+    "highest_point_elevation_m": 4203.0
+  },
+  {
+    "ccn3": "044",
+    "country_name": "Bahama-szigetek",
+    "highest_point_name": "Mount Alvernia",
+    "highest_point_elevation_m": 63.0
+  },
+  {
+    "ccn3": "340",
+    "country_name": "Honduras",
+    "highest_point_name": "Cerro Las Minas",
+    "highest_point_elevation_m": 2849.0
+  },
+  {
+    "ccn3": "028",
+    "country_name": "Antigua és Barbuda",
+    "highest_point_name": "Mount Obama",
+    "highest_point_elevation_m": 402.0
+  },
+  {
+    "ccn3": "214",
+    "country_name": "Dominikai Köztársaság",
+    "highest_point_name": "Pico Duarte",
+    "highest_point_elevation_m": 3101.0
+  },
+  {
+    "ccn3": "212",
+    "country_name": "Dominikai Közösség",
+    "highest_point_name": "Morne Diablotins",
+    "highest_point_elevation_m": 1447.0
+  },
+  {
+    "ccn3": "332",
+    "country_name": "Haiti",
+    "highest_point_name": "Peak la Selle",
+    "highest_point_elevation_m": 2674.0
+  },
+  {
+    "ccn3": "364",
+    "country_name": "Irán",
+    "highest_point_name": "Damávand",
+    "highest_point_elevation_m": 5610.0
+  },
+  {
+    "ccn3": "364",
+    "country_name": "Irán",
+    "highest_point_name": "Damávand",
+    "highest_point_elevation_m": 5628.0
+  },
+  {
+    "ccn3": "222",
+    "country_name": "Salvador",
+    "highest_point_name": "Cerro El Pital",
+    "highest_point_elevation_m": 2730.0
+  },
+  {
+    "ccn3": "368",
+    "country_name": "Irak",
+    "highest_point_name": "Cheekha Dar",
+    "highest_point_elevation_m": 3611.0
+  },
+  {
+    "ccn3": "188",
+    "country_name": "Costa Rica",
+    "highest_point_name": "Cerro Chirripó",
+    "highest_point_elevation_m": 3820.0
+  },
+  {
+    "ccn3": "376",
+    "country_name": "Izrael",
+    "highest_point_name": "Har Meron",
+    "highest_point_elevation_m": 1208.0
+  },
+  {
+    "ccn3": "591",
+    "country_name": "Panama",
+    "highest_point_name": "Barú",
+    "highest_point_elevation_m": 3475.0
+  },
+  {
+    "ccn3": "887",
+    "country_name": "Jemen",
+    "highest_point_name": "Jabal an Nabi Shu'ayb",
+    "highest_point_elevation_m": 3666.0
+  },
+  {
+    "ccn3": "400",
+    "country_name": "Jordánia",
+    "highest_point_name": "Jabal Umm ad Dami",
+    "highest_point_elevation_m": 1854.0
+  },
+  {
+    "ccn3": "558",
+    "country_name": "Nicaragua",
+    "highest_point_name": "Cerro Mogotón",
+    "highest_point_elevation_m": 2107.0
+  },
+  {
+    "ccn3": "417",
+    "country_name": "Kirgizisztán",
+    "highest_point_name": "Győzelem-csúcs",
+    "highest_point_elevation_m": 7439.0
+  },
+  {
+    "ccn3": "418",
+    "country_name": "Laosz",
+    "highest_point_name": "Phou Bia",
+    "highest_point_elevation_m": 2819.0
+  },
+  {
+    "ccn3": "414",
+    "country_name": "Kuvait",
+    "highest_point_name": "Mutla Ridge",
+    "highest_point_elevation_m": 140.0
+  },
+  {
+    "ccn3": "422",
+    "country_name": "Libanon",
+    "highest_point_name": "Qurnat as Sawda'",
+    "highest_point_elevation_m": 3088.0
+  },
+  {
+    "ccn3": "462",
+    "country_name": "Maldív-szigetek",
+    "highest_point_name": "Villingili",
+    "highest_point_elevation_m": 5.1
+  },
+  {
+    "ccn3": "462",
+    "country_name": "Maldív-szigetek",
+    "highest_point_name": "Addu City",
+    "highest_point_elevation_m": 2.4
+  },
+  {
+    "ccn3": "458",
+    "country_name": "Malajzia",
+    "highest_point_name": "Mount Kinabalu",
+    "highest_point_elevation_m": 4095.0
+  },
+  {
+    "ccn3": "104",
+    "country_name": "Mianmar",
+    "highest_point_name": "Hkakabo Razi",
+    "highest_point_elevation_m": 5881.0
+  },
+  {
+    "ccn3": "524",
+    "country_name": "Nepál",
+    "highest_point_name": "Csomolungma",
+    "highest_point_elevation_m": 8848.86
+  },
+  {
+    "ccn3": "512",
+    "country_name": "Omán",
+    "highest_point_name": "Jebel Shams",
+    "highest_point_elevation_m": 3018.0
+  },
+  {
+    "ccn3": "586",
+    "country_name": "Pakisztán",
+    "highest_point_name": "K2",
+    "highest_point_elevation_m": 8611.0
+  },
+  {
+    "ccn3": "634",
+    "country_name": "Katar",
+    "highest_point_name": "Qurayn Abu al Bawl",
+    "highest_point_elevation_m": 103.0
+  },
+  {
+    "ccn3": "682",
+    "country_name": "Szaúd-Arábia",
+    "highest_point_name": "Jabal Sawda",
+    "highest_point_elevation_m": 3133.0
+  },
+  {
+    "ccn3": "144",
+    "country_name": "Srí Lanka",
+    "highest_point_name": "Pidurutalágala",
+    "highest_point_elevation_m": 2524.0
+  },
+  {
+    "ccn3": "760",
+    "country_name": "Szíria",
+    "highest_point_name": "Hermon-hegy",
+    "highest_point_elevation_m": 2813.95
+  },
+  {
+    "ccn3": "762",
+    "country_name": "Tádzsikisztán",
+    "highest_point_name": "Iszmoilí Szomoní-csúcs",
+    "highest_point_elevation_m": 7495.0
+  },
+  {
+    "ccn3": "158",
+    "country_name": "Kínai Köztársaság",
+    "highest_point_name": "Yushan Main Peak",
+    "highest_point_elevation_m": 3952.0
+  },
+  {
+    "ccn3": "764",
+    "country_name": "Thaiföld",
+    "highest_point_name": "Doi Inthanon",
+    "highest_point_elevation_m": 2565.0
+  },
+  {
+    "ccn3": "795",
+    "country_name": "Türkmenisztán",
+    "highest_point_name": "Aýrybaba",
+    "highest_point_elevation_m": 3139.0
+  },
+  {
+    "ccn3": "784",
+    "country_name": "Egyesült Arab Emírségek",
+    "highest_point_name": "Jebel Jais",
+    "highest_point_elevation_m": 1911.0
+  },
+  {
+    "ccn3": "704",
+    "country_name": "Vietnám",
+    "highest_point_name": "Fansipan",
+    "highest_point_elevation_m": 3143.0
+  },
+  {
+    "ccn3": "704",
+    "country_name": "Vietnám",
+    "highest_point_name": "Fansipan",
+    "highest_point_elevation_m": 3147.3
+  },
+  {
+    "ccn3": "410",
+    "country_name": "Dél-Korea",
+    "highest_point_name": "Halla-hegy",
+    "highest_point_elevation_m": 1947.06
+  },
+  {
+    "ccn3": "004",
+    "country_name": "Afganisztán",
+    "highest_point_name": "Novsak",
+    "highest_point_elevation_m": 7492.0
+  },
+  {
+    "ccn3": "050",
+    "country_name": "Banglades",
+    "highest_point_name": "Mowdok tiang",
+    "highest_point_elevation_m": 1054.0
+  },
+  {
+    "ccn3": "466",
+    "country_name": "Mali",
+    "highest_point_name": "Mount Hombori",
+    "highest_point_elevation_m": 1153.0
+  },
+  {
+    "ccn3": "024",
+    "country_name": "Angola",
+    "highest_point_name": "Mount Moco",
+    "highest_point_elevation_m": 2619.0
+  },
+  {
+    "ccn3": "064",
+    "country_name": "Bhután",
+    "highest_point_name": "Gangkhar Puensum",
+    "highest_point_elevation_m": 7570.0
+  },
+  {
+    "ccn3": "096",
+    "country_name": "Brunei",
+    "highest_point_name": "Bukit Pagon",
+    "highest_point_elevation_m": 1850.0
+  },
+  {
+    "ccn3": "834",
+    "country_name": "Tanzánia",
+    "highest_point_name": "Kibo-hegy",
+    "highest_point_elevation_m": 5895.0
+  },
+  {
+    "ccn3": "608",
+    "country_name": "Fülöp-szigetek",
+    "highest_point_name": "Mount Apo",
+    "highest_point_elevation_m": 2954.0
+  },
+  {
+    "ccn3": "140",
+    "country_name": "Közép-afrikai Köztársaság",
+    "highest_point_name": "Mont Ngaoui",
+    "highest_point_elevation_m": 1410.0
+  },
+  {
+    "ccn3": "768",
+    "country_name": "Togo",
+    "highest_point_name": "Mount Agou",
+    "highest_point_elevation_m": 986.0
+  },
+  {
+    "ccn3": "788",
+    "country_name": "Tunézia",
+    "highest_point_name": "Jebel ech Chambi",
+    "highest_point_elevation_m": 1544.0
+  },
+  {
+    "ccn3": "716",
+    "country_name": "Zimbabwe",
+    "highest_point_name": "Mount Nyangani",
+    "highest_point_elevation_m": 2592.0
+  },
+  {
+    "ccn3": "894",
+    "country_name": "Zambia",
+    "highest_point_name": "Mafinga Central",
+    "highest_point_elevation_m": 2339.0
+  },
+  {
+    "ccn3": "728",
+    "country_name": "Dél-Szudán",
+    "highest_point_name": "Kinyeti",
+    "highest_point_elevation_m": 3187.0
+  },
+  {
+    "ccn3": "204",
+    "country_name": "Benin",
+    "highest_point_name": "Mont Sokbaro",
+    "highest_point_elevation_m": 658.0
+  },
+  {
+    "ccn3": "072",
+    "country_name": "Botswana",
+    "highest_point_name": "Otse Hill",
+    "highest_point_elevation_m": 1491.0
+  },
+  {
+    "ccn3": "108",
+    "country_name": "Burundi",
+    "highest_point_name": "Mount Heha",
+    "highest_point_elevation_m": 2684.0
+  },
+  {
+    "ccn3": "854",
+    "country_name": "Burkina Faso",
+    "highest_point_name": "Mount Tenakourou",
+    "highest_point_elevation_m": 749.0
+  },
+  {
+    "ccn3": "174",
+    "country_name": "Comore-szigetek",
+    "highest_point_name": "Kartala",
+    "highest_point_elevation_m": 2361.0
+  },
+  {
+    "ccn3": "178",
+    "country_name": "Kongói Köztársaság",
+    "highest_point_name": "Mont Nabemba",
+    "highest_point_elevation_m": 1020.0
+  },
+  {
+    "ccn3": "180",
+    "country_name": "Kongói Demokratikus Köztársaság",
+    "highest_point_name": "Stanley-hegy",
+    "highest_point_elevation_m": 5109.0
+  },
+  {
+    "ccn3": "262",
+    "country_name": "Dzsibuti",
+    "highest_point_name": "Mousa Ali",
+    "highest_point_elevation_m": 2028.0
+  },
+  {
+    "ccn3": "226",
+    "country_name": "Egyenlítői-Guinea",
+    "highest_point_name": "Pico Basilé",
+    "highest_point_elevation_m": 3011.0
+  },
+  {
+    "ccn3": "232",
+    "country_name": "Eritrea",
+    "highest_point_name": "Emba Soira",
+    "highest_point_elevation_m": 3013.0
+  },
+  {
+    "ccn3": "232",
+    "country_name": "Eritrea",
+    "highest_point_name": "Emba Soira",
+    "highest_point_elevation_m": 3018.0
+  },
+  {
+    "ccn3": "266",
+    "country_name": "Gabon",
+    "highest_point_name": "Mont Bengoué",
+    "highest_point_elevation_m": 1070.0
+  },
+  {
+    "ccn3": "324",
+    "country_name": "Guinea",
+    "highest_point_name": "Mount Richard-Molard",
+    "highest_point_elevation_m": 1752.0
+  },
+  {
+    "ccn3": "624",
+    "country_name": "Bissau-Guinea",
+    "highest_point_name": "Monte Torin",
+    "highest_point_elevation_m": 262.0
+  },
+  {
+    "ccn3": "132",
+    "country_name": "Zöld-foki Köztársaság",
+    "highest_point_name": "Pico do Fogo",
+    "highest_point_elevation_m": 2829.0
+  },
+  {
+    "ccn3": "384",
+    "country_name": "Elefántcsontpart",
+    "highest_point_name": "Mount Richard-Molard",
+    "highest_point_elevation_m": 1752.0
+  },
+  {
+    "ccn3": "120",
+    "country_name": "Kamerun",
+    "highest_point_name": "Kamerun-hegy",
+    "highest_point_elevation_m": 4095.0
+  },
+  {
+    "ccn3": "430",
+    "country_name": "Libéria",
+    "highest_point_name": "Mount Wuteve",
+    "highest_point_elevation_m": 1440.0
+  },
+  {
+    "ccn3": "426",
+    "country_name": "Lesotho",
+    "highest_point_name": "Thabana Ntlenyana",
+    "highest_point_elevation_m": 3482.0
+  },
+  {
+    "ccn3": "450",
+    "country_name": "Madagaszkár",
+    "highest_point_name": "Maremokotro",
+    "highest_point_elevation_m": 2876.0
+  },
+  {
+    "ccn3": "434",
+    "country_name": "Líbia",
+    "highest_point_name": "Bikku-Bitti",
+    "highest_point_elevation_m": 2267.0
+  },
+  {
+    "ccn3": "454",
+    "country_name": "Malawi",
+    "highest_point_name": "Mulanje Massif",
+    "highest_point_elevation_m": 3002.0
+  },
+  {
+    "ccn3": "480",
+    "country_name": "Mauritius",
+    "highest_point_name": "Piton de la Petite Rivière Noire",
+    "highest_point_elevation_m": 828.0
+  },
+  {
+    "ccn3": "478",
+    "country_name": "Mauritánia",
+    "highest_point_name": "Kediet Ijill",
+    "highest_point_elevation_m": 915.0
+  },
+  {
+    "ccn3": "516",
+    "country_name": "Namíbia",
+    "highest_point_name": "Brandberg",
+    "highest_point_elevation_m": 2573.0
+  },
+  {
+    "ccn3": "504",
+    "country_name": "Marokkó",
+    "highest_point_name": "Toubkal",
+    "highest_point_elevation_m": 4167.0
+  },
+  {
+    "ccn3": "508",
+    "country_name": "Mozambik",
+    "highest_point_name": "Monte Binga",
+    "highest_point_elevation_m": 2436.0
+  },
+  {
+    "ccn3": "562",
+    "country_name": "Niger",
+    "highest_point_name": "Mont Idoukal-n-Taghès",
+    "highest_point_elevation_m": 2022.0
+  },
+  {
+    "ccn3": "566",
+    "country_name": "Nigéria",
+    "highest_point_name": "Chappal Waddi",
+    "highest_point_elevation_m": 2419.0
+  },
+  {
+    "ccn3": "678",
+    "country_name": "São Tomé és Príncipe",
+    "highest_point_name": "Pico de São Tomé",
+    "highest_point_elevation_m": 2024.0
+  },
+  {
+    "ccn3": "800",
+    "country_name": "Uganda",
+    "highest_point_name": "Stanley-hegy",
+    "highest_point_elevation_m": 5109.0
+  },
+  {
+    "ccn3": "646",
+    "country_name": "Ruanda",
+    "highest_point_name": "Karisimbi",
+    "highest_point_elevation_m": 4507.0
+  },
+  {
+    "ccn3": "690",
+    "country_name": "Seychelle-szigetek",
+    "highest_point_name": "Morne Seychellois",
+    "highest_point_elevation_m": 905.0
+  },
+  {
+    "ccn3": "686",
+    "country_name": "Szenegál",
+    "highest_point_name": "Népin Cliff",
+    "highest_point_elevation_m": 531.0
+  },
+  {
+    "ccn3": "694",
+    "country_name": "Sierra Leone",
+    "highest_point_name": "Mount Bintumani",
+    "highest_point_elevation_m": 1945.0
+  },
+  {
+    "ccn3": "706",
+    "country_name": "Szomália",
+    "highest_point_name": "Shimbiris",
+    "highest_point_elevation_m": 2460.0
+  },
+  {
+    "ccn3": "748",
+    "country_name": "Szváziföld",
+    "highest_point_name": "Emlembe",
+    "highest_point_elevation_m": 1862.0
+  },
+  {
+    "ccn3": "729",
+    "country_name": "Szudán",
+    "highest_point_name": "Deriba-kráter",
+    "highest_point_elevation_m": 3042.0
+  },
+  {
+    "ccn3": "630",
+    "country_name": "Puerto Rico",
+    "highest_point_name": "Cerro de Punta",
+    "highest_point_elevation_m": 1338.0
+  },
+  {
+    "ccn3": "254",
+    "country_name": "Francia Guyana",
+    "highest_point_name": "Bellevue de l'Inini",
+    "highest_point_elevation_m": 831.0
+  },
+  {
+    "ccn3": "234",
+    "country_name": "Feröer",
+    "highest_point_name": "Slættaratindur",
+    "highest_point_elevation_m": 880.0
+  },
+  {
+    "ccn3": "248",
+    "country_name": "Åland",
+    "highest_point_name": "Orrdalsklint",
+    "highest_point_elevation_m": 127.0
+  },
+  {
+    "ccn3": "344",
+    "country_name": "Hongkong",
+    "highest_point_name": "Tai Mo Shan",
+    "highest_point_elevation_m": 957.0
+  },
+  {
+    "ccn3": "238",
+    "country_name": "Falkland-szigetek",
+    "highest_point_name": "Mount Usborne",
+    "highest_point_elevation_m": 705.0
+  },
+  {
+    "ccn3": "833",
+    "country_name": "Man-sziget",
+    "highest_point_name": "Snaefell",
+    "highest_point_elevation_m": 621.0
+  },
+  {
+    "ccn3": "850",
+    "country_name": "Amerikai Virgin-szigetek",
+    "highest_point_name": "Crown Mountain",
+    "highest_point_elevation_m": 473.0
+  },
+  {
+    "ccn3": "446",
+    "country_name": "Makaó",
+    "highest_point_name": "Alto de Coloane",
+    "highest_point_elevation_m": 1706.0
+  },
+  {
+    "ccn3": "316",
+    "country_name": "Guam",
+    "highest_point_name": "Mount Lamlam",
+    "highest_point_elevation_m": 406.0
+  },
+  {
+    "ccn3": "316",
+    "country_name": "Guam",
+    "highest_point_name": "Mount Lamlam",
+    "highest_point_elevation_m": 1332.0
+  },
+  {
+    "ccn3": "016",
+    "country_name": "Amerikai Szamoa",
+    "highest_point_name": "Lata Mountain",
+    "highest_point_elevation_m": 963.0
+  },
+  {
+    "ccn3": "580",
+    "country_name": "Északi-Mariana-szigetek",
+    "highest_point_name": "Mount Agrihan",
+    "highest_point_elevation_m": 965.0
+  },
+  {
+    "ccn3": "581",
+    "country_name": "az Amerikai Egyesült Államok lakatlan külbirtokai",
+    "highest_point_name": "Dunning Hill",
+    "highest_point_elevation_m": 76.0
+  },
+  {
+    "ccn3": "312",
+    "country_name": "Guadeloupe",
+    "highest_point_name": "Soufrière",
+    "highest_point_elevation_m": 1467.0
+  },
+  {
+    "ccn3": "474",
+    "country_name": "Martinique",
+    "highest_point_name": "Mont Pelée",
+    "highest_point_elevation_m": 1397.0
+  },
+  {
+    "ccn3": "175",
+    "country_name": "Mayotte",
+    "highest_point_name": "Benara",
+    "highest_point_elevation_m": 660.0
+  },
+  {
+    "ccn3": "638",
+    "country_name": "Réunion",
+    "highest_point_name": "Piton des Neiges",
+    "highest_point_elevation_m": 3070.0
+  },
+  {
+    "ccn3": "796",
+    "country_name": "Turks- és Caicos-szigetek",
+    "highest_point_name": "Blue Hills",
+    "highest_point_elevation_m": 49.0
+  },
+  {
+    "ccn3": "533",
+    "country_name": "Aruba",
+    "highest_point_name": "Mount Jamanota",
+    "highest_point_elevation_m": 188.0
+  },
+  {
+    "ccn3": "074",
+    "country_name": "Bouvet-sziget",
+    "highest_point_name": "Olavtoppen",
+    "highest_point_elevation_m": 780.0
+  },
+  {
+    "ccn3": "831",
+    "country_name": "Guernsey Bailiffség",
+    "highest_point_name": "Le Moulin",
+    "highest_point_elevation_m": 109.0
+  },
+  {
+    "ccn3": "831",
+    "country_name": "Guernsey Bailiffség",
+    "highest_point_name": "Le Moulin",
+    "highest_point_elevation_m": 114.0
+  },
+  {
+    "ccn3": "652",
+    "country_name": "Saint-Barthélemy",
+    "highest_point_name": "Morne du Vitet",
+    "highest_point_elevation_m": 286.0
+  },
+  {
+    "ccn3": "184",
+    "country_name": "Cook-szigetek",
+    "highest_point_name": "Te Manga",
+    "highest_point_elevation_m": 652.0
+  },
+  {
+    "ccn3": "535",
+    "country_name": "karibi Hollandia",
+    "highest_point_name": "Mount Scenery",
+    "highest_point_elevation_m": 870.0
+  },
+  {
+    "ccn3": "528",
+    "country_name": "Holland Királyság",
+    "highest_point_name": "Mount Scenery",
+    "highest_point_elevation_m": 870.0
+  },
+  {
+    "ccn3": "258",
+    "country_name": "Francia Polinézia",
+    "highest_point_name": "Orohena-hegy",
+    "highest_point_elevation_m": 2241.0
+  },
+  {
+    "ccn3": "162",
+    "country_name": "Karácsony-sziget",
+    "highest_point_name": "Murray Hill, Christmas Island",
+    "highest_point_elevation_m": 361.0
+  },
+  {
+    "ccn3": "124",
+    "country_name": "Kanada",
+    "highest_point_name": "Mount Logan",
+    "highest_point_elevation_m": 5959.0
+  },
+  {
+    "ccn3": "392",
+    "country_name": "Japán",
+    "highest_point_name": "Fudzsi",
+    "highest_point_elevation_m": 3777.24
+  },
+  {
+    "ccn3": "578",
+    "country_name": "Norvégia",
+    "highest_point_name": "Galdhøpiggen",
+    "highest_point_elevation_m": 2468.854
+  },
+  {
+    "ccn3": "372",
+    "country_name": "Írország",
+    "highest_point_name": "Carrauntoohil",
+    "highest_point_elevation_m": 1038.6
+  },
+
+  {
+    "ccn3": "275",
+    "country_name": "Palesztina",
+    "highest_point_name": "Mount Nabi Yunis",
+    "highest_point_elevation_m": 1030.0
+  },
+  {
+    "ccn3": "832",
+    "country_name": "Jersey",
+    "highest_point_name": "Les Platons",
+    "highest_point_elevation_m": 136.0
+  },
+  {
+    "ccn3": "270",
+    "country_name": "Gambia",
+    "highest_point_name": "Sare Firasu Hill",
+    "highest_point_elevation_m": 50.905
+  },
+  {
+    "ccn3": "292",
+    "country_name": "Gibraltár",
+    "highest_point_name": "Rock of Gibraltar",
+    "highest_point_elevation_m": 426.0
+  },
+
+  {
+    "ccn3": "136",
+    "country_name": "Kajmán-szigetek",
+    "highest_point_name": "The Bluff (Cayman Brac)",
+    "highest_point_elevation_m": 43.0
+  },
+  {
+    "ccn3": "732",
+    "country_name": "Nyugat-Szahara",
+    "highest_point_name": "Unnamed high point east of Aousserd",
+    "highest_point_elevation_m": 701.0
+  },
+  {
+    "ccn3": "500",
+    "country_name": "Montserrat",
+    "highest_point_name": "Soufrière Hills lava dome",
+    "highest_point_elevation_m": 1089.0
+  },
+
+
+  {
+    "ccn3": "060",
+    "country_name": "Bermuda",
+    "highest_point_name": "Town Hill",
+    "highest_point_elevation_m": 79.0
+  },
+  {
+    "ccn3": "660",
+    "country_name": "Anguilla",
+    "highest_point_name": "Crocus Hill",
+    "highest_point_elevation_m": 73.0
+  },
+  {
+    "ccn3": "531",
+    "country_name": "Curaçao",
+    "highest_point_name": "Sint Christoffelberg",
+    "highest_point_elevation_m": 372.0
+  },
+  {
+    "ccn3": "092",
+    "country_name": "Brit Virgin-szigetek",
+    "highest_point_name": "Mount Sage",
+    "highest_point_elevation_m": 523.0
+  },
+  {
+    "ccn3": "534",
+    "country_name": "Sint Maarten",
+    "highest_point_name": "Flagstaff Ridge Southwest",
+    "highest_point_elevation_m": 383.0
+  },
+  {
+    "ccn3": "574",
+    "country_name": "Norfolk-sziget",
+    "highest_point_name": "Mount Bates",
+    "highest_point_elevation_m": 319.0
+  },
+  {
+    "ccn3": "540",
+    "country_name": "Új-Kaledónia",
+    "highest_point_name": "Mont Panié",
+    "highest_point_elevation_m": 1628.0
+  },
+  {
+    "ccn3": "612",
+    "country_name": "Pitcairn-szigetek",
+    "highest_point_name": "Pawala Valley Ridge",
+    "highest_point_elevation_m": 347.0
+  },
+  {
+    "ccn3": "166",
+    "country_name": "Kókusz (Keeling)-szigetek",
+    "highest_point_name": "Unnamed high point on South Island",
+    "highest_point_elevation_m": 9.0
+  },
+  {
+    "ccn3": "772",
+    "country_name": "Tokelau-szigetek",
+    "highest_point_name": "Unnamed high point on Nukunonu",
+    "highest_point_elevation_m": 5.0
+  },
+
+  {
+    "ccn3": "086",
+    "country_name": "Brit Indiai-óceáni Terület",
+    "highest_point_name": "Unnamed high point on Diego Garcia",
+    "highest_point_elevation_m": 15.0
+  }
+]
