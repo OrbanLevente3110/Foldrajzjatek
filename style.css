@@ -32,8 +32,10 @@ input[type="radio"] { accent-color: #087da8; width: 1.05rem; height: 1.05rem; }
 .primary-button:hover { background: #056b91; }
 .primary-button:disabled { cursor: not-allowed; opacity: .45; box-shadow: none; }
 .game-card { max-width: 800px; margin: 0 auto; padding: clamp(1rem, 4vw, 2rem); }
-.game-hud { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; padding: .8rem 1rem; border-radius: .75rem; background: #eef7fb; color: #52627b; }
+.game-hud { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; padding: .8rem 1rem; border-radius: .75rem; background: #eef7fb; color: #52627b; }
 .game-hud p { margin: 0; } .game-hud strong { color: #075f88; }
+.exit-button { margin-left: auto; padding: .4rem .75rem; border: 1px solid #aac5d5; border-radius: .55rem; background: #fff; color: #075f88; font-weight: 800; cursor: pointer; }
+.exit-button:hover { border-color: #087da8; background: #e3f5fc; }
 .question-text { margin: 0 0 1.4rem; text-align: center; font-size: clamp(1.2rem, 3.5vw, 1.65rem); font-weight: 800; line-height: 1.35; }
 .question-text img { max-width: min(100%, 230px); max-height: 240px; height: auto; margin-top: .9rem; object-fit: contain; box-shadow: 0 6px 16px rgba(40,65,92,.2); }
 #map_question { width: 100%; margin: 0 auto 1.25rem; }

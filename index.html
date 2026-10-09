@@ -14,8 +14,7 @@
 <body>
     <main class="app-shell">
         <header class="site-header">
-            <p class="eyebrow">Földrajzi kvíz</p>
-            <h1>Járd be a világot!</h1>
+            <h1>Földrajz kvíz</h1>
             <p>Válaszd ki a témákat, majd ismerd fel az országokat vagy közigazgatási egységeket.</p>
         </header>
         <section id="game_setup_div" class="card setup-card" aria-labelledby="setup-title">
@@ -76,7 +75,7 @@
             <p id="setup_error" class="setup-error hidden" role="alert"></p>
         </section>
         <section id="game_div" class="card game-card hidden" aria-live="polite">
-            <div class="game-hud"><p>Kérdés <strong id="question_progress">1 / 10</strong></p><p>Pontszám <strong id="points_counter">0</strong></p></div>
+            <div class="game-hud"><p>Kérdés <strong id="question_progress">1 / 10</strong></p><p>Pontszám <strong id="points_counter">0</strong></p><button id="exit_game_button" class="exit-button" type="button">Kilépés</button></div>
             <p id="question" class="question-text"></p>
             <div id="map_question" class="hidden"><svg id="map_svg" viewBox="0 0 960 480" role="img" aria-label="Földrajzi térkép"></svg></div>
             <div id="answer_options" class="answer-grid"><button id="option_1"></button><button id="option_2"></button><button id="option_3"></button><button id="option_4"></button></div>

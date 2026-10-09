@@ -1,4 +1,4 @@
-const CACHE_NAME = "foldrajz-jatek-v12";
+const CACHE_NAME = "foldrajz-jatek-v15";
 
 const CORE_FILES = [
     "./",

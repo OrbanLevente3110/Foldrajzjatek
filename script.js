@@ -138,10 +138,8 @@ async function main() {
         }
     });
 
-    document.getElementById("restart_button").addEventListener("click", () => {
-        document.getElementById("game_div").classList.add("hidden");
-        document.getElementById("game_setup_div").classList.remove("hidden");
-    });
+    document.getElementById("restart_button").addEventListener("click", () => exitGame(false));
+    document.getElementById("exit_game_button").addEventListener("click", () => exitGame(true));
 }
 
 function getSetup() {
@@ -197,7 +195,7 @@ function startGame(entities, questionTypes, questionCount, mode, answerEntities 
         correctAnswer: null,
         currentQuestion: 0,
         totalQuestions: questionCount,
-        questionDecks: buildQuestionDecks(entities, supportedTypes, mode),
+        questionDecks: buildQuestionDecks(entities, supportedTypes, mode, answerEntities),
     };
     document.getElementById("game_setup_div").classList.add("hidden");
     document.getElementById("game_div").classList.remove("hidden");
@@ -212,6 +210,14 @@ function startGame(entities, questionTypes, questionCount, mode, answerEntities 
 function updateGameHud() {
     document.getElementById("question_progress").textContent = `${gameState.currentQuestion} / ${gameState.totalQuestions}`;
     document.getElementById("points_counter").textContent = gameState.points;
+}
+
+function exitGame(askForConfirmation = false) {
+    if (askForConfirmation && !window.confirm("Biztosan ki szeretnél lépni a játékból?")) return;
+    gameState = null;
+    clearMap();
+    document.getElementById("game_div").classList.add("hidden");
+    document.getElementById("game_setup_div").classList.remove("hidden");
 }
 
 function finishGame() {
@@ -269,8 +275,9 @@ function isQuestionTypeAvailable(type, entities, mode, answerEntities = entities
             new Set(answerEntities.filter(e => e.properties.flag?.local_path || e.properties.flag?.url).map(subdivisionLabel)).size >= 4;
         if (type === "coat_of_arms") return entities.some(e => e.properties.coat_of_arms?.local_path || e.properties.coat_of_arms?.url) &&
             new Set(answerEntities.filter(e => e.properties.coat_of_arms?.local_path || e.properties.coat_of_arms?.url).map(subdivisionLabel)).size >= 4;
-        if (type === "map" || type === "outline") return entities.some(hasGeometry) &&
-            new Set(answerEntities.filter(hasGeometry).map(subdivisionLabel)).size >= 4;
+        if (type === "map" || type === "outline") return entities.some(entity =>
+            hasGeometry(entity) && hasEnoughSameCountryMapOptions(entity, answerEntities)
+        );
         return false;
     }
     if (type === "capital") return new Set(entities.filter(e => e.properties.capitals?.[0]?.name).map(e => e.properties.capitals[0].name)).size >= 4;
@@ -284,7 +291,16 @@ function isQuestionTypeAvailable(type, entities, mode, answerEntities = entities
     return false;
 }
 
-function questionVariants(type, entity, mode) {
+function hasEnoughSameCountryMapOptions(entity, answerEntities) {
+    const countryName = entity.properties.country?.name;
+    return new Set(
+        answerEntities
+            .filter(candidate => hasGeometry(candidate) && candidate.properties.country?.name === countryName)
+            .map(subdivisionLabel)
+    ).size >= 4;
+}
+
+function questionVariants(type, entity, mode, answerEntities = []) {
     const properties = entity.properties;
     if (mode === "subdivisions") {
         if (type === "capital" && properties.capital) return ["forward", "reverse"];
@@ -292,7 +308,7 @@ function questionVariants(type, entity, mode) {
         if (type === "parent_country" && properties.country?.name) return ["forward", "reverse"];
         if (type === "flag" && (properties.flag?.local_path || properties.flag?.url)) return ["standard"];
         if (type === "coat_of_arms" && (properties.coat_of_arms?.local_path || properties.coat_of_arms?.url)) return ["standard"];
-        if ((type === "map" || type === "outline") && hasGeometry(entity)) return ["standard"];
+        if ((type === "map" || type === "outline") && hasGeometry(entity) && hasEnoughSameCountryMapOptions(entity, answerEntities)) return ["standard"];
         return [];
     }
     if (type === "capital" && properties.capitals?.[0]?.name) return ["forward", "reverse"];
@@ -306,11 +322,11 @@ function questionVariants(type, entity, mode) {
     return [];
 }
 
-function buildQuestionDecks(entities, questionTypes, mode) {
+function buildQuestionDecks(entities, questionTypes, mode, answerEntities = entities) {
     return new Map(questionTypes.map(type => [
         type,
         shuffle(entities.flatMap(entity =>
-            questionVariants(type, entity, mode).map(variant => ({ type, entity, variant }))
+            questionVariants(type, entity, mode, answerEntities).map(variant => ({ type, entity, variant }))
         )),
     ]));
 }
@@ -467,7 +483,8 @@ function renderMap(targetEntity, outlineOnly) {
     const bounds = featuresBounds(boundsFeatures, referenceLongitude);
     const width = Math.max(bounds.maxX - bounds.minX, 0.05);
     const height = Math.max(bounds.maxY - bounds.minY, 0.05);
-    const fittedScale = Math.min(960 / (width * 1.35), 480 / (height * 1.35));
+    const mapMargin = 1.04;
+    const fittedScale = Math.min(960 / (width * mapMargin), 480 / (height * mapMargin));
     const scale = subdivisionMode && mainlandSubdivision && !outlineOnly
         ? fittedScale
         : Math.min(subdivisionMode ? 80 : 14, fittedScale);
@@ -501,7 +518,7 @@ function giveQuestion() {
     updateGameHud();
     let availableTypes = gameState.questionTypes.filter(type => gameState.questionDecks.get(type)?.length > 0);
     if (availableTypes.length === 0) {
-        gameState.questionDecks = buildQuestionDecks(gameState.entities, gameState.questionTypes, gameState.mode);
+        gameState.questionDecks = buildQuestionDecks(gameState.entities, gameState.questionTypes, gameState.mode, gameState.answerEntities);
         availableTypes = gameState.questionTypes.filter(type => gameState.questionDecks.get(type)?.length > 0);
     }
     const type = randomElem(availableTypes);
@@ -607,7 +624,9 @@ function giveSubdivisionQuestion(question, answerSubdivisions) {
         return;
     }
     if (type === "map" || type === "outline") {
-        const answerCandidates = answerSubdivisions.filter(hasGeometry);
+        const answerCandidates = answerSubdivisions.filter(candidate =>
+            hasGeometry(candidate) && candidate.properties.country?.name === subdivision.properties.country.name
+        );
         const answer = subdivisionLabel(subdivision);
         showQuestion(type === "map" ? "Melyik közigazgatási egység látható kiemelve a térképen?" : "Melyik közigazgatási egység körvonala látható?", getOptions(answer, answerCandidates.map(subdivisionLabel)), answer);
         renderMap(subdivision, type === "outline");
