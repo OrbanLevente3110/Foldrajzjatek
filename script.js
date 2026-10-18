@@ -201,6 +201,7 @@ function startGame(entities, questionTypes, questionCount, mode, answerEntities 
     document.getElementById("game_div").classList.remove("hidden");
     document.getElementById("answer_options").classList.remove("hidden");
     document.getElementById("result_panel").classList.add("hidden");
+    document.getElementById("site-header").classList.add("hidden");
     nextQuestionButton.classList.add("hidden");
     updateGameHud();
     giveQuestion();
@@ -218,6 +219,7 @@ function exitGame(askForConfirmation = false) {
     clearMap();
     document.getElementById("game_div").classList.add("hidden");
     document.getElementById("game_setup_div").classList.remove("hidden");
+    document.getElementById("site-header").classList.remove("hidden");
 }
 
 function finishGame() {
@@ -227,6 +229,7 @@ function finishGame() {
     nextQuestionButton.classList.add("hidden");
     document.getElementById("result_text").textContent = `${gameState.points} / ${gameState.totalQuestions} pontot értél el!`;
     document.getElementById("result_panel").classList.remove("hidden");
+    document.getElementById("site-header").classList.remove("hidden");
 }
 
 function randomElem(items) { return items[Math.floor(Math.random() * items.length)]; }
@@ -660,7 +663,17 @@ main().catch(error => {
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", async () => {
         try {
+            const wasControlled = Boolean(navigator.serviceWorker.controller);
+            if (wasControlled) {
+                let reloading = false;
+                navigator.serviceWorker.addEventListener("controllerchange", () => {
+                    if (reloading) return;
+                    reloading = true;
+                    window.location.reload();
+                });
+            }
             const registration = await navigator.serviceWorker.register("./service-worker.js");
+            await registration.update();
             console.log("Service worker registered:", registration.scope);
         } catch (error) {
             console.error("Service worker registration failed:", error);
